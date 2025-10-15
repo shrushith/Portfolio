@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   title: "Shrushith Kalavala – Frontend Developer",
   description:
     "Frontend Developer (5 years) specializing in React, Next.js, data visualizations, dashboards, and performance.",
-  generator: "v0.app",
 };
 
 export default function RootLayout({
