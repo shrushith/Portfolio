@@ -14,7 +14,7 @@ export default function Home() {
       >
         <h2
           id="projects-title"
-          className="text-2xl md:text-3xl font-semibold text-pretty mb-6"
+          className="text-2xl md:text-3xl font-semibold text-pretty mb-6 text-[#1877F2]"
         >
           Projects
         </h2>
@@ -27,7 +27,7 @@ export default function Home() {
       >
         <h2
           id="experience-title"
-          className="text-2xl md:text-3xl font-semibold text-pretty mb-6"
+          className="text-2xl md:text-3xl font-semibold text-pretty mb-6 text-[#1877F2]"
         >
           Experience
         </h2>
@@ -40,7 +40,7 @@ export default function Home() {
       >
         <h2
           id="skills-title"
-          className="text-2xl md:text-3xl font-semibold text-pretty mb-6"
+          className="text-2xl md:text-3xl font-semibold text-pretty mb-6 text-[#1877F2]"
         >
           Skills
         </h2>

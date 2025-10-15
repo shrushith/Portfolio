@@ -10,7 +10,7 @@ export function Hero() {
       <div className="grid gap-10 md:grid-cols-[1fr,1.2fr] md:gap-16 items-start">
         <div className="space-y-6">
           <div>
-            <h1 className="text-balance text-4xl md:text-6xl font-semibold leading-tight">
+            <h1 className="text-balance text-4xl md:text-6xl font-semibold leading-tight text-[#1877F2]">
               Shrushith Kalavala
             </h1>
             <p className="mt-3 text-lg md:text-xl text-muted-foreground">
@@ -28,13 +28,19 @@ export function Hero() {
 
           <nav aria-label="Primary" className="flex flex-wrap gap-3">
             <Link href="#projects">
-              <Button className="rounded">View Projects</Button>
+              <Button className="rounded" variant="facebook">
+                View Projects
+              </Button>
             </Link>
             <Link href="#experience">
-              <Button className="rounded">Experience</Button>
+              <Button className="rounded" variant="facebook">
+                Experience
+              </Button>
             </Link>
             <Link href="#skills">
-              <Button className="rounded">Skills</Button>
+              <Button className="rounded" variant="facebook">
+                Skills
+              </Button>
             </Link>
           </nav>
 
